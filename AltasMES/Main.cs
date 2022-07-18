@@ -91,6 +91,7 @@ namespace AltasMES
         {
             Label lbl = sender as Label;
             OpenCreateForm("frmEmployee");
+            
         }
 
         private void SalesStrip_Click(object sender, EventArgs e)

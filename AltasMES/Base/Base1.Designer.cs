@@ -37,9 +37,9 @@ namespace AltasMES
             this.btnModify = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,10 +51,11 @@ namespace AltasMES
             this.btnExecl.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExecl.ImageIndex = 4;
             this.btnExecl.ImageList = this.imageList1;
-            this.btnExecl.Location = new System.Drawing.Point(713, 20);
+            this.btnExecl.Location = new System.Drawing.Point(815, 25);
+            this.btnExecl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExecl.Name = "btnExecl";
-            this.btnExecl.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnExecl.Size = new System.Drawing.Size(78, 37);
+            this.btnExecl.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.btnExecl.Size = new System.Drawing.Size(89, 46);
             this.btnExecl.TabIndex = 4;
             this.btnExecl.Text = "엑셀";
             this.btnExecl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -78,10 +79,11 @@ namespace AltasMES
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.ImageIndex = 2;
             this.btnDelete.ImageList = this.imageList1;
-            this.btnDelete.Location = new System.Drawing.Point(629, 20);
+            this.btnDelete.Location = new System.Drawing.Point(719, 25);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnDelete.Size = new System.Drawing.Size(78, 37);
+            this.btnDelete.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.btnDelete.Size = new System.Drawing.Size(89, 46);
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "삭제";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -95,10 +97,11 @@ namespace AltasMES
             this.btnModify.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnModify.ImageIndex = 1;
             this.btnModify.ImageList = this.imageList1;
-            this.btnModify.Location = new System.Drawing.Point(545, 20);
+            this.btnModify.Location = new System.Drawing.Point(623, 25);
+            this.btnModify.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnModify.Name = "btnModify";
-            this.btnModify.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnModify.Size = new System.Drawing.Size(78, 37);
+            this.btnModify.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.btnModify.Size = new System.Drawing.Size(89, 46);
             this.btnModify.TabIndex = 2;
             this.btnModify.Text = "수정";
             this.btnModify.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -108,9 +111,9 @@ namespace AltasMES
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblTitle.Location = new System.Drawing.Point(10, 16);
+            this.lblTitle.Location = new System.Drawing.Point(11, 20);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(72, 37);
+            this.lblTitle.Size = new System.Drawing.Size(90, 46);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Title";
             // 
@@ -123,27 +126,12 @@ namespace AltasMES
             this.groupBox1.Controls.Add(this.btnModify);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(800, 72);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(914, 90);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox2.Location = new System.Drawing.Point(0, 72);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(800, 74);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 146);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 301);
-            this.panel1.TabIndex = 6;
             // 
             // button1
             // 
@@ -153,25 +141,47 @@ namespace AltasMES
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.ImageIndex = 0;
             this.button1.ImageList = this.imageList1;
-            this.button1.Location = new System.Drawing.Point(461, 20);
+            this.button1.Location = new System.Drawing.Point(527, 25);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.button1.Size = new System.Drawing.Size(78, 37);
+            this.button1.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.button1.Size = new System.Drawing.Size(89, 46);
             this.button1.TabIndex = 5;
             this.button1.Text = "등록";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox2.Location = new System.Drawing.Point(0, 90);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(914, 92);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 182);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(914, 380);
+            this.panel1.TabIndex = 6;
+            // 
             // Base1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 562);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Base1";
             this.Text = "Base1";
             this.groupBox1.ResumeLayout(false);
@@ -188,7 +198,7 @@ namespace AltasMES
         protected System.Windows.Forms.Button btnModify;
         protected System.Windows.Forms.GroupBox groupBox1;
         protected System.Windows.Forms.GroupBox groupBox2;
-        protected System.Windows.Forms.Panel panel1;
         protected System.Windows.Forms.Button button1;
+        protected System.Windows.Forms.Panel panel1;
     }
 }
