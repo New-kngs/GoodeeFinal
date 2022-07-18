@@ -48,8 +48,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.9\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -99,11 +106,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\DataGridUtil.cs" />
+    <Compile Include="Util\ServiceHelper.cs" />
     <EmbeddedResource Include="Base\Base1.resx">
       <DependentUpon>Base1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Base\PopUpBase.resx">
       <DependentUpon>PopUpBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquitment\frmEquitment.resx">
+      <DependentUpon>frmEquitment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProcess\frmProcess.resx">
       <DependentUpon>frmProcess.cs</DependentUpon>
@@ -119,6 +131,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -151,6 +164,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="frmEmployee\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AtlasDTO\AtlasDTO.csproj">
+      <Project>{b4c8c339-791a-4219-9070-118f960a9490}</Project>
+      <Name>AtlasDTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

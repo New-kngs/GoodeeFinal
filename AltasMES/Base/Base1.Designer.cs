@@ -124,7 +124,6 @@ namespace AltasMES
             this.groupBox1.Controls.Add(this.btnDelete);
             this.groupBox1.Controls.Add(this.lblTitle);
             this.groupBox1.Controls.Add(this.btnModify);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
@@ -154,7 +153,7 @@ namespace AltasMES
             // groupBox2
             // 
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox2.Location = new System.Drawing.Point(0, 90);
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -165,10 +164,10 @@ namespace AltasMES
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 182);
+            this.panel1.Location = new System.Drawing.Point(0, 92);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(914, 380);
+            this.panel1.Size = new System.Drawing.Size(914, 470);
             this.panel1.TabIndex = 6;
             // 
             // Base1

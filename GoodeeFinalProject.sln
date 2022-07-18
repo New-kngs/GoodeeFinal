@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasDTO", "AtlasDTO\AtlasD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasPOP", "AtlasPOP\AtlasPOP.csproj", "{1AA0E1B6-6B2D-42C0-B4DC-1FDC0274A947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasMVCAPI", "AtlasMVCAPI\AtlasMVCAPI.csproj", "{B45400F0-9742-4D79-B4A9-DDB99D5BF1B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasMVCAPI", "AtlasMVCAPI\AtlasMVCAPI.csproj", "{E4EB442D-273C-486A-ACD6-2884727DC5ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{1AA0E1B6-6B2D-42C0-B4DC-1FDC0274A947}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AA0E1B6-6B2D-42C0-B4DC-1FDC0274A947}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AA0E1B6-6B2D-42C0-B4DC-1FDC0274A947}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B45400F0-9742-4D79-B4A9-DDB99D5BF1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B45400F0-9742-4D79-B4A9-DDB99D5BF1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B45400F0-9742-4D79-B4A9-DDB99D5BF1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B45400F0-9742-4D79-B4A9-DDB99D5BF1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EB442D-273C-486A-ACD6-2884727DC5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EB442D-273C-486A-ACD6-2884727DC5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EB442D-273C-486A-ACD6-2884727DC5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EB442D-273C-486A-ACD6-2884727DC5ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
