@@ -43,16 +43,16 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(687, 26);
+            this.btnAdd.Location = new System.Drawing.Point(683, 26);
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnExecl
             // 
-            this.btnExecl.Location = new System.Drawing.Point(972, 26);
+            this.btnExecl.Location = new System.Drawing.Point(968, 26);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(877, 26);
+            this.btnDelete.Location = new System.Drawing.Point(873, 26);
             // 
             // lblTitle
             // 
@@ -61,7 +61,7 @@
             // 
             // btnModify
             // 
-            this.btnModify.Location = new System.Drawing.Point(782, 26);
+            this.btnModify.Location = new System.Drawing.Point(778, 26);
             // 
             // imageList1
             // 
@@ -111,7 +111,6 @@
             this.ClientSize = new System.Drawing.Size(1073, 565);
             this.Name = "frmProcess";
             this.Text = "frmProcess";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);
