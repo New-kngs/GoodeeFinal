@@ -144,6 +144,7 @@ namespace AtlasPOP
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmFail";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmResource";
             this.Load += new System.EventHandler(this.frmResource_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

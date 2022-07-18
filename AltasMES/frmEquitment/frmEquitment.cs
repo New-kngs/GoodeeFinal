@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AltasMES
+namespace AltasMES 
 {
-    public partial class PopUpBase : Form
+    public partial class frmEquitment : Base1
     {
-        public PopUpBase()
+        public frmEquitment()
         {
             InitializeComponent();
         }

@@ -156,6 +156,7 @@
     <Content Include="Resources\AtlasLogo.png" />
     <Content Include="Resources\AtlasLogo_Black.png" />
     <None Include="Resources\fast-forward-double-right-arrows-symbol.png" />
+    <None Include="Resources\AtlasLogo_Black1.png" />
     <Content Include="Resources\아틀라스매트리스 로고.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

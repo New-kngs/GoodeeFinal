@@ -73,6 +73,24 @@
     <Compile Include="Base\PopUpBase.Designer.cs">
       <DependentUpon>PopUpBase.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEquitment\frmEquitment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquitment\frmEquitment.Designer.cs">
+      <DependentUpon>frmEquitment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcess\frmProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcess\frmProcess.Designer.cs">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcess\frmProcess_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcess\frmProcess_Add.Designer.cs">
+      <DependentUpon>frmProcess_Add.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +104,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Base\PopUpBase.resx">
       <DependentUpon>PopUpBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcess\frmProcess.resx">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcess\frmProcess_Add.resx">
+      <DependentUpon>frmProcess_Add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>

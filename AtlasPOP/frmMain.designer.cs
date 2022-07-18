@@ -42,9 +42,17 @@ namespace AtlasPOP
             this.btnOperation = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblProcessName = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblOrderQty = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblClient = new System.Windows.Forms.Label();
+            this.lblItemName = new System.Windows.Forms.Label();
             this.btnOperStatus = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -56,14 +64,6 @@ namespace AtlasPOP
             this.panel10 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lblItemName = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblClient = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblOrderQty = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -281,6 +281,18 @@ namespace AtlasPOP
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(152, 39);
+            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(152, 39);
+            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
+            // 
             // lblProcessName
             // 
             this.lblProcessName.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -323,6 +335,72 @@ namespace AtlasPOP
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(981, 110);
             this.panel9.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label7.Location = new System.Drawing.Point(746, 14);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(133, 28);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "주문 수량";
+            this.label7.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label5.Location = new System.Drawing.Point(460, 14);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(96, 28);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "거래처";
+            this.label5.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // lblOrderQty
+            // 
+            this.lblOrderQty.AutoSize = true;
+            this.lblOrderQty.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblOrderQty.Location = new System.Drawing.Point(799, 62);
+            this.lblOrderQty.Name = "lblOrderQty";
+            this.lblOrderQty.Size = new System.Drawing.Size(44, 28);
+            this.lblOrderQty.TabIndex = 0;
+            this.lblOrderQty.Text = "20";
+            this.lblOrderQty.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(136, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(133, 28);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "생산 제품";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // lblClient
+            // 
+            this.lblClient.AutoSize = true;
+            this.lblClient.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblClient.Location = new System.Drawing.Point(384, 62);
+            this.lblClient.Name = "lblClient";
+            this.lblClient.Size = new System.Drawing.Size(245, 28);
+            this.lblClient.TabIndex = 0;
+            this.lblClient.Text = "시몬스침대 가산점";
+            this.lblClient.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // lblItemName
+            // 
+            this.lblItemName.AutoSize = true;
+            this.lblItemName.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblItemName.Location = new System.Drawing.Point(97, 62);
+            this.lblItemName.Name = "lblItemName";
+            this.lblItemName.Size = new System.Drawing.Size(216, 28);
+            this.lblItemName.TabIndex = 0;
+            this.lblItemName.Text = "란체스터 베드 S";
+            this.lblItemName.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnOperStatus
             // 
@@ -415,90 +493,13 @@ namespace AtlasPOP
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::AtlasPOP.Properties.Resources.AtlasLogo_Black;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(205, 134);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(152, 39);
-            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(152, 39);
-            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
-            // 
-            // lblItemName
-            // 
-            this.lblItemName.AutoSize = true;
-            this.lblItemName.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblItemName.Location = new System.Drawing.Point(97, 62);
-            this.lblItemName.Name = "lblItemName";
-            this.lblItemName.Size = new System.Drawing.Size(216, 28);
-            this.lblItemName.TabIndex = 0;
-            this.lblItemName.Text = "란체스터 베드 S";
-            this.lblItemName.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(136, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 28);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "생산 제품";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // lblClient
-            // 
-            this.lblClient.AutoSize = true;
-            this.lblClient.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblClient.Location = new System.Drawing.Point(384, 62);
-            this.lblClient.Name = "lblClient";
-            this.lblClient.Size = new System.Drawing.Size(245, 28);
-            this.lblClient.TabIndex = 0;
-            this.lblClient.Text = "시몬스침대 가산점";
-            this.lblClient.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label5.Location = new System.Drawing.Point(460, 14);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 28);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "거래처";
-            this.label5.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // lblOrderQty
-            // 
-            this.lblOrderQty.AutoSize = true;
-            this.lblOrderQty.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblOrderQty.Location = new System.Drawing.Point(799, 62);
-            this.lblOrderQty.Name = "lblOrderQty";
-            this.lblOrderQty.Size = new System.Drawing.Size(44, 28);
-            this.lblOrderQty.TabIndex = 0;
-            this.lblOrderQty.Text = "20";
-            this.lblOrderQty.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label7.Location = new System.Drawing.Point(746, 14);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(133, 28);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "주문 수량";
-            this.label7.Click += new System.EventHandler(this.label3_Click);
             // 
             // frmMain
             // 

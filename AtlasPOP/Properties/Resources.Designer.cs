@@ -63,6 +63,16 @@ namespace AtlasPOP.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap AtlasLogo_Black {
+            get {
+                object obj = ResourceManager.GetObject("AtlasLogo_Black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap fast_forward_double_right_arrows_symbol {
             get {
                 object obj = ResourceManager.GetObject("fast-forward-double-right-arrows-symbol", resourceCulture);

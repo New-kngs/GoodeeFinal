@@ -1,4 +1,4 @@
-﻿namespace AltasMES.Base
+﻿namespace AltasMES
 {
     partial class PopUpBase
     {

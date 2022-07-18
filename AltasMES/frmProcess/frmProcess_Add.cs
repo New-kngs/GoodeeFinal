@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AltasMES
 {
-    public partial class PopUpBase : Form
+    public partial class frmProcess_Add : PopUpBase
     {
-        public PopUpBase()
+        public frmProcess_Add()
         {
             InitializeComponent();
         }
