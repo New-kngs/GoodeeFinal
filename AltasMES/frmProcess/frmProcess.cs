@@ -16,16 +16,5 @@ namespace AltasMES
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmProcess_Add frm = new frmProcess_Add();
-            frm.ShowDialog();
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }
