@@ -95,8 +95,8 @@
         #endregion
 
         protected System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.Panel panel2;
+        protected System.Windows.Forms.Panel panel1;
+        protected System.Windows.Forms.ImageList imageList1;
+        protected System.Windows.Forms.Panel panel2;
     }
 }

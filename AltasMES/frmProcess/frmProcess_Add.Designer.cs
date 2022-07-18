@@ -30,11 +30,17 @@
         {
             this.SuspendLayout();
             // 
+            // lblTitle
+            // 
+            this.lblTitle.Size = new System.Drawing.Size(627, 63);
+            this.lblTitle.Text = "공정 등록";
+            // 
             // frmProcess_Add
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(682, 534);
+            this.ClientSize = new System.Drawing.Size(627, 587);
+            this.Margin = new System.Windows.Forms.Padding(6, 11, 6, 11);
             this.Name = "frmProcess_Add";
             this.Text = "frmProcess_Add";
             this.ResumeLayout(false);
