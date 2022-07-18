@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace AltasMES
 {
-    public partial class frmProcess : BaseStyle1
+    public partial class BaseStyle1 : Form
     {
-        public frmProcess()
+        public BaseStyle1()
         {
             InitializeComponent();
-        }
-
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-            frmProcess_Add frm = new frmProcess_Add();
-            frm.ShowDialog();
         }
     }
 }

@@ -74,6 +74,12 @@
     <Compile Include="Base\Base1.Designer.cs">
       <DependentUpon>Base1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Base\BaseStyle1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\BaseStyle1.Designer.cs">
+      <DependentUpon>BaseStyle1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Base\PopUpBase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     <Compile Include="Util\ServiceHelper.cs" />
     <EmbeddedResource Include="Base\Base1.resx">
       <DependentUpon>Base1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\BaseStyle1.resx">
+      <DependentUpon>BaseStyle1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Base\PopUpBase.resx">
       <DependentUpon>PopUpBase.cs</DependentUpon>
