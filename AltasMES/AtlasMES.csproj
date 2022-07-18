@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="frmEmployee\" />
+    <Folder Include="frmEquitment\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AtlasDTO\AtlasDTO.csproj">
