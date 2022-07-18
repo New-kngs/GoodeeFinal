@@ -16,5 +16,10 @@ namespace AltasMES
         {
             InitializeComponent();
         }
+
+        private void btnCancle_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
