@@ -52,8 +52,83 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFail.designer.cs">
+      <DependentUpon>frmFail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLaping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLaping.designer.cs">
+      <DependentUpon>frmLaping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperation.designer.cs">
+      <DependentUpon>frmOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperStatus.designer.cs">
+      <DependentUpon>frmOperStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerformance.designer.cs">
+      <DependentUpon>frmPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResource.designer.cs">
+      <DependentUpon>frmResource.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFail.resx">
+      <DependentUpon>frmFail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLaping.resx">
+      <DependentUpon>frmLaping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperation.resx">
+      <DependentUpon>frmOperation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperStatus.resx">
+      <DependentUpon>frmOperStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerformance.resx">
+      <DependentUpon>frmPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResource.resx">
+      <DependentUpon>frmResource.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +150,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AtlasLogo.png" />
+    <Content Include="Resources\AtlasLogo_Black.png" />
+    <Content Include="Resources\아틀라스매트리스 로고.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
