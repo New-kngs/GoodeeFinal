@@ -29,22 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProcess));
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
             // 
-            this.lblTitle.Size = new System.Drawing.Size(88, 46);
+            this.lblTitle.Size = new System.Drawing.Size(71, 37);
             this.lblTitle.Text = "공정";
             // 
             // btnExecl
             // 
-            this.btnExecl.Location = new System.Drawing.Point(988, 25);
+            this.btnExecl.Location = new System.Drawing.Point(936, 22);
+            this.btnExecl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnExecl.Padding = new System.Windows.Forms.Padding(4, 0, 4, 0);
             // 
             // imageList1
             // 
@@ -57,71 +54,55 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(892, 25);
+            this.btnDelete.Location = new System.Drawing.Point(852, 22);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDelete.Padding = new System.Windows.Forms.Padding(4, 0, 4, 0);
             // 
             // btnModify
             // 
-            this.btnModify.Location = new System.Drawing.Point(796, 25);
+            this.btnModify.Location = new System.Drawing.Point(768, 22);
+            this.btnModify.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnModify.Padding = new System.Windows.Forms.Padding(4, 0, 4, 0);
             // 
             // groupBox1
             // 
-            this.groupBox1.Size = new System.Drawing.Size(1087, 90);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(1032, 72);
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // groupBox2
             // 
-            this.groupBox2.Size = new System.Drawing.Size(1087, 92);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(1032, 74);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(700, 25);
+            this.button1.Location = new System.Drawing.Point(684, 22);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Padding = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.groupBox3);
-            this.panel1.Size = new System.Drawing.Size(1087, 441);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox3.Location = new System.Drawing.Point(0, 0);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1087, 441);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "공정목록";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 30);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(1081, 408);
-            this.dataGridView1.TabIndex = 0;
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Size = new System.Drawing.Size(1032, 354);
             // 
             // frmProcess
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 623);
+            this.ClientSize = new System.Drawing.Size(1032, 500);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmProcess";
             this.Text = "frmProcess";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
