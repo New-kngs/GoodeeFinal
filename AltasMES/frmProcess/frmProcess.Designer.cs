@@ -29,25 +29,30 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProcess));
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Size = new System.Drawing.Size(800, 90);
+            this.groupBox1.Size = new System.Drawing.Size(1073, 90);
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(414, 26);
+            this.btnAdd.Location = new System.Drawing.Point(687, 26);
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnExecl
             // 
-            this.btnExecl.Location = new System.Drawing.Point(699, 26);
+            this.btnExecl.Location = new System.Drawing.Point(972, 26);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(604, 26);
+            this.btnDelete.Location = new System.Drawing.Point(877, 26);
             // 
             // lblTitle
             // 
@@ -56,7 +61,7 @@
             // 
             // btnModify
             // 
-            this.btnModify.Location = new System.Drawing.Point(509, 26);
+            this.btnModify.Location = new System.Drawing.Point(782, 26);
             // 
             // imageList1
             // 
@@ -69,25 +74,56 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Size = new System.Drawing.Size(800, 78);
+            this.groupBox2.Size = new System.Drawing.Size(1073, 78);
             // 
             // panel1
             // 
-            this.panel1.Size = new System.Drawing.Size(800, 282);
+            this.panel1.Controls.Add(this.groupBox3);
+            this.panel1.Size = new System.Drawing.Size(1073, 397);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox3.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox3.Location = new System.Drawing.Point(0, 0);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(1073, 397);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "공정 목록";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 30);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 27;
+            this.dataGridView1.Size = new System.Drawing.Size(1067, 364);
+            this.dataGridView1.TabIndex = 0;
             // 
             // frmProcess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1073, 565);
             this.Name = "frmProcess";
             this.Text = "frmProcess";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
