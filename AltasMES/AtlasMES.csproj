@@ -98,6 +98,18 @@
     <Compile Include="frmProcess\frmProcess_Add.Designer.cs">
       <DependentUpon>frmProcess_Add.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmWareHouse\frmWareHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWareHouse\frmWareHouse.Designer.cs">
+      <DependentUpon>frmWareHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWareHouse\frmWareHouse_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWareHouse\frmWareHouse_Add.Designer.cs">
+      <DependentUpon>frmWareHouse_Add.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +135,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProcess\frmProcess_Add.resx">
       <DependentUpon>frmProcess_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWareHouse\frmWareHouse.resx">
+      <DependentUpon>frmWareHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWareHouse\frmWareHouse_Add.resx">
+      <DependentUpon>frmWareHouse_Add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
