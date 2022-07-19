@@ -32,22 +32,22 @@ namespace AltasMES
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseFrm));
             this.BasePanel1 = new System.Windows.Forms.Panel();
-            this.Basepanel2 = new System.Windows.Forms.Panel();
-            this.Basepanel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.Basepanel4 = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Basepanel3 = new System.Windows.Forms.Panel();
+            this.Basepanel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btnExecl = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnModify = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.BasePanel1.SuspendLayout();
-            this.Basepanel2.SuspendLayout();
             this.Basepanel4.SuspendLayout();
+            this.Basepanel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,35 +60,70 @@ namespace AltasMES
             this.BasePanel1.Controls.Add(this.Basepanel2);
             this.BasePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BasePanel1.Location = new System.Drawing.Point(0, 0);
+            this.BasePanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BasePanel1.Name = "BasePanel1";
-            this.BasePanel1.Size = new System.Drawing.Size(1184, 761);
+            this.BasePanel1.Size = new System.Drawing.Size(1182, 853);
             this.BasePanel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 295);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1182, 558);
+            this.panel2.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 281);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1182, 14);
+            this.panel1.TabIndex = 2;
+            // 
+            // Basepanel4
+            // 
+            this.Basepanel4.Controls.Add(this.groupBox2);
+            this.Basepanel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Basepanel4.Location = new System.Drawing.Point(0, 157);
+            this.Basepanel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Basepanel4.Name = "Basepanel4";
+            this.Basepanel4.Size = new System.Drawing.Size(1182, 124);
+            this.Basepanel4.TabIndex = 1;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(1182, 124);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
+            // Basepanel3
+            // 
+            this.Basepanel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Basepanel3.Location = new System.Drawing.Point(0, 145);
+            this.Basepanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Basepanel3.Name = "Basepanel3";
+            this.Basepanel3.Size = new System.Drawing.Size(1182, 12);
+            this.Basepanel3.TabIndex = 0;
             // 
             // Basepanel2
             // 
             this.Basepanel2.Controls.Add(this.groupBox1);
             this.Basepanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.Basepanel2.Location = new System.Drawing.Point(0, 0);
+            this.Basepanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Basepanel2.Name = "Basepanel2";
-            this.Basepanel2.Size = new System.Drawing.Size(1184, 116);
+            this.Basepanel2.Size = new System.Drawing.Size(1182, 145);
             this.Basepanel2.TabIndex = 0;
-            // 
-            // Basepanel3
-            // 
-            this.Basepanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Basepanel3.Location = new System.Drawing.Point(0, 116);
-            this.Basepanel3.Name = "Basepanel3";
-            this.Basepanel3.Size = new System.Drawing.Size(1184, 10);
-            this.Basepanel3.TabIndex = 0;
-            // 
-            // Basepanel4
-            // 
-            this.Basepanel4.Controls.Add(this.groupBox2);
-            this.Basepanel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Basepanel4.Location = new System.Drawing.Point(0, 126);
-            this.Basepanel4.Name = "Basepanel4";
-            this.Basepanel4.Size = new System.Drawing.Size(1184, 99);
-            this.Basepanel4.TabIndex = 1;
             // 
             // groupBox1
             // 
@@ -99,8 +134,10 @@ namespace AltasMES
             this.groupBox1.Controls.Add(this.btnModify);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1184, 116);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1182, 145);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             // 
@@ -112,14 +149,25 @@ namespace AltasMES
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAdd.ImageIndex = 0;
             this.btnAdd.ImageList = this.imageList1;
-            this.btnAdd.Location = new System.Drawing.Point(848, 35);
+            this.btnAdd.Location = new System.Drawing.Point(798, 44);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnAdd.Size = new System.Drawing.Size(78, 37);
+            this.btnAdd.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.btnAdd.Size = new System.Drawing.Size(89, 46);
             this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "등록";
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Create.png");
+            this.imageList1.Images.SetKeyName(1, "Modify.png");
+            this.imageList1.Images.SetKeyName(2, "Delete.png");
+            this.imageList1.Images.SetKeyName(3, "Serach.png");
+            this.imageList1.Images.SetKeyName(4, "Execl.png");
             // 
             // btnExecl
             // 
@@ -129,10 +177,11 @@ namespace AltasMES
             this.btnExecl.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExecl.ImageIndex = 4;
             this.btnExecl.ImageList = this.imageList1;
-            this.btnExecl.Location = new System.Drawing.Point(1100, 35);
+            this.btnExecl.Location = new System.Drawing.Point(1086, 44);
+            this.btnExecl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExecl.Name = "btnExecl";
-            this.btnExecl.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnExecl.Size = new System.Drawing.Size(78, 37);
+            this.btnExecl.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.btnExecl.Size = new System.Drawing.Size(89, 46);
             this.btnExecl.TabIndex = 4;
             this.btnExecl.Text = "엑셀";
             this.btnExecl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -146,10 +195,11 @@ namespace AltasMES
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.ImageIndex = 2;
             this.btnDelete.ImageList = this.imageList1;
-            this.btnDelete.Location = new System.Drawing.Point(1016, 35);
+            this.btnDelete.Location = new System.Drawing.Point(990, 44);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnDelete.Size = new System.Drawing.Size(78, 37);
+            this.btnDelete.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.btnDelete.Size = new System.Drawing.Size(89, 46);
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "삭제";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,9 +209,9 @@ namespace AltasMES
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblTitle.Location = new System.Drawing.Point(12, 35);
+            this.lblTitle.Location = new System.Drawing.Point(14, 44);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(72, 37);
+            this.lblTitle.Size = new System.Drawing.Size(90, 46);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Title";
             // 
@@ -173,66 +223,29 @@ namespace AltasMES
             this.btnModify.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnModify.ImageIndex = 1;
             this.btnModify.ImageList = this.imageList1;
-            this.btnModify.Location = new System.Drawing.Point(932, 35);
+            this.btnModify.Location = new System.Drawing.Point(894, 44);
+            this.btnModify.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnModify.Name = "btnModify";
-            this.btnModify.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnModify.Size = new System.Drawing.Size(78, 37);
+            this.btnModify.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.btnModify.Size = new System.Drawing.Size(89, 46);
             this.btnModify.TabIndex = 2;
             this.btnModify.Text = "수정";
             this.btnModify.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnModify.UseVisualStyleBackColor = true;
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "Create.png");
-            this.imageList1.Images.SetKeyName(1, "Modify.png");
-            this.imageList1.Images.SetKeyName(2, "Delete.png");
-            this.imageList1.Images.SetKeyName(3, "Serach.png");
-            this.imageList1.Images.SetKeyName(4, "Execl.png");
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(1184, 99);
-            this.groupBox2.TabIndex = 8;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
-            // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 225);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1184, 11);
-            this.panel1.TabIndex = 2;
-            // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 236);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1184, 525);
-            this.panel2.TabIndex = 0;
-            // 
             // BaseFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1182, 853);
             this.Controls.Add(this.BasePanel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "BaseFrm";
             this.Text = "BaseFrm";
             this.BasePanel1.ResumeLayout(false);
-            this.Basepanel2.ResumeLayout(false);
             this.Basepanel4.ResumeLayout(false);
+            this.Basepanel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
