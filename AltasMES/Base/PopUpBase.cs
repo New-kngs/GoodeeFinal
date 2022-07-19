@@ -16,5 +16,10 @@ namespace AltasMES
         {
             InitializeComponent();
         }
+
+        private void PopUpBase_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

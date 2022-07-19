@@ -88,8 +88,11 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "PopUpBase";
             this.Text = "PopUpBase";
+            this.Load += new System.EventHandler(this.PopUpBase_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
