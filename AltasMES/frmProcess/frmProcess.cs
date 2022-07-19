@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace AltasMES
 {
-    public partial class frmProcess : BaseStyle1
+    public partial class frmProcess : BaseFrm
     {
         ServiceHelper service = null;
         public frmProcess()

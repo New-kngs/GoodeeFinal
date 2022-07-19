@@ -32,8 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtProcess = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -60,6 +60,7 @@
             this.imageList1.Images.SetKeyName(4, "search.png");
             this.imageList1.Images.SetKeyName(5, "arrow-left.png");
             this.imageList1.Images.SetKeyName(6, "check.png");
+            this.imageList1.Images.SetKeyName(7, "close.png");
             // 
             // panel2
             // 
@@ -97,17 +98,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "자재투입여부";
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(90, 50);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(44, 32);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Y";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -118,6 +108,17 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "N";
             this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(90, 50);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(44, 32);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Y";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // btnAdd
             // 

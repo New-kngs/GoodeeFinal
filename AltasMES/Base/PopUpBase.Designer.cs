@@ -68,6 +68,7 @@
             this.imageList1.Images.SetKeyName(4, "search.png");
             this.imageList1.Images.SetKeyName(5, "arrow-left.png");
             this.imageList1.Images.SetKeyName(6, "check.png");
+            this.imageList1.Images.SetKeyName(7, "close.png");
             // 
             // panel2
             // 

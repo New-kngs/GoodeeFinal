@@ -61,6 +61,9 @@ namespace AltasMES
             this.imageList1.Images.SetKeyName(2, "trash.png");
             this.imageList1.Images.SetKeyName(3, "pencil.png");
             this.imageList1.Images.SetKeyName(4, "search.png");
+            this.imageList1.Images.SetKeyName(5, "close.png");
+            this.imageList1.Images.SetKeyName(6, "arrow-left.png");
+            this.imageList1.Images.SetKeyName(7, "check.png");
             // 
             // panel2
             // 
