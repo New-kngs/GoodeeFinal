@@ -68,6 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\BaseFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\BaseFrm.Designer.cs">
+      <DependentUpon>BaseFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Base\BaseStyle1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     <Compile Include="Util\AdvancedList.cs" />
     <Compile Include="Util\DataGridUtil.cs" />
     <Compile Include="Util\ServiceHelper.cs" />
+    <EmbeddedResource Include="Base\BaseFrm.resx">
+      <DependentUpon>BaseFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Base\BaseStyle1.resx">
       <DependentUpon>BaseStyle1.cs</DependentUpon>
     </EmbeddedResource>
